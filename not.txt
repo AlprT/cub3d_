@@ -1,0 +1,24 @@
+
+
+dızlanan koddan farklı değişiklikler -
+
+config kelimesi yerine data kullanıldı
+bağzı fonksiyon isimleri değişti
+klasörleme tarzı değişti
+dosya isimleri değişti
+
+eksikler -
+
+42 header hiçbir dosyada yok, eklenecek
+dosya pathleri makefilede daha girilmedi
+raycaster yok
+texture ve spriteler yok
+mapler yok
+
+olası hatalar -
+
+linker hataları olabilir - fonksiyon isminin yanlış girilmesi, tanımlanmamış fonksiyon, ulaşılamayan
+                           fonksiyon, fonksiyonun headerde tanımlanmamış olması vs.
+header hataları olabilir - header path veya isminin yanlış girilmesi, headere ulaşılamaması
+
+norm ve norminette hataları - boş includeler, norminette, gereksiz include vs
